@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>KB List Add-Ons localized labels</description>
+        <type>database</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="prompt_paste_numRecords">Times record shall get pasted:</label>
+            <label index="title_paste_numRecords">Paste record multiple times</label>
+            <label index="title_select_all">Select all records of this table on the current page</label>
+            <label index="title_unselect_all">De-Select all records of this table on the current page</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="prompt_paste_numRecords">Anzahl wie oft der Datensatz eingef&amp;uuml;gt werden soll:</label>
+            <label index="title_paste_numRecords">Datensatz mehrfach einf&amp;uuml;gen</label>
+            <label index="title_select_all">Alle Datens&amp;auml;stze dieser Tabelle auf der aktuellen Seite ausw&amp;auml;hlen</label>
+            <label index="title_unselect_all">Alle Datens&amp;auml;stze dieser Tabelle auf der aktuellen Seite deselektieren</label>
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="prompt_paste_numRecords" type="integer">221353093</label>
+            <label index="title_paste_numRecords" type="integer">126531298</label>
+            <label index="title_select_all" type="integer">116218379</label>
+            <label index="title_unselect_all" type="integer">57221220</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="prompt_paste_numRecords" type="integer">221353093</label>
+            <label index="title_paste_numRecords" type="integer">126531298</label>
+            <label index="title_select_all" type="integer">116218379</label>
+            <label index="title_unselect_all" type="integer">57221220</label>
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>
