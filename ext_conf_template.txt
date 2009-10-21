@@ -1,0 +1,4 @@
+
+	# cat=basic; type=boolean; label=List-Module Filters: When enabled it is possible to define via Page-TSconfig fields of each table, for which a filter select box should get generated. Then you can filter your listing for records with specific values. (See manual for Page-TSconfig syntax)
+enableFilters = 0
+

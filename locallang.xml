@@ -13,12 +13,16 @@
             <label index="title_paste_numRecords">Paste record multiple times</label>
             <label index="title_select_all">Select all records of this table on the current page</label>
             <label index="title_unselect_all">De-Select all records of this table on the current page</label>
+            <label index="filters_showAll">[Show all]</label>
+            <label index="filters_reset">Reset filters</label>
         </languageKey>
         <languageKey index="de" type="array">
             <label index="prompt_paste_numRecords">Anzahl wie oft der Datensatz eingef&amp;uuml;gt werden soll:</label>
             <label index="title_paste_numRecords">Datensatz mehrfach einf&amp;uuml;gen</label>
             <label index="title_select_all">Alle Datens&amp;auml;stze dieser Tabelle auf der aktuellen Seite ausw&amp;auml;hlen</label>
             <label index="title_unselect_all">Alle Datens&amp;auml;stze dieser Tabelle auf der aktuellen Seite deselektieren</label>
+            <label index="filters_showAll">[Zeige Alle]</label>
+            <label index="filters_reset">Filter zurücksetzen</label>
         </languageKey>
     </data>
     <orig_hash type="array">

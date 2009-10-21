@@ -2,7 +2,7 @@
 /***************************************************************
 *  Copyright notice
 *  
-*  (c) 2007 Bernhard Kraft (kraftb@kraftb.at)
+*  (c) 2007-2009 Bernhard Kraft (kraftb@think-open.at)
 *  All rights reserved
 *
 *  This script is part of the TYPO3 project. The TYPO3 project is 
@@ -24,13 +24,13 @@
 /** 
  * Hook methods for tcemain
  *
- * @author	Bernhard Kraft <kraftb@kraftb.at>
+ * @author	Bernhard Kraft <kraftb@think-open.at>
  */
 /**
  * [CLASS/FUNCTION INDEX of SCRIPT]
  */
 
-class tx_listmoduleplus_t3libtcemain	{
+class tx_listaddons_t3libtcemain	{
 
 
 	function processCmdmap_preProcess(&$command, $table, $id, $value, &$pObj)	{
@@ -78,6 +78,12 @@ class tx_listmoduleplus_t3libtcemain	{
 		}
 	}
 
+}
+
+
+
+if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/listaddons/class.tx_listaddons_t3libtcemain.php']) {
+	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/listaddons/class.tx_listaddons_t3libtcemain.php']);
 }
 
 ?>
